@@ -1,0 +1,38 @@
+- Scrivere un programma che legga dall'input dell'utente un messaggio e conti
+  il numero di vocali presenti nel messaggio.
+
+  Lezione 1-Es-1.cpp
+
+- Acquisire dall�utente tre numeri finch� questi non sono positivi e l'ultimo numero � maggiore della somma dei primi due
+
+  Lezione 1-Es-2.cpp
+
+- Leggere il contenuto del file "es1.txt" tokenizzandolo sul simbolo "," e ".".
+  I token devono essere salvati su un array. Scrivere sul file chiamato "es1-out.txt" il numero di token
+  ottenuti. 
+
+  Lezione 2-Es-1.cpp
+  Lezione 2-Es-1-bis.cpp
+
+- Creare una classe Squadra caratterizzata da un nome e un anno di fondazione (scrivere costruttore, distruttore, set e get).
+  Una Squadra può essere o una SquadraClub, caratterizzata  da sede legale e nazionalità, o una SquadraNazionale, caratterizzata dalla nazione.
+  Creare una classe Torneo che contiene una lista di Squadre e che fornisca la possibilità di aggiungere una squadra.
+  Un TorneoClub può essere per squadre di tipo SquadraClub mentre un TorneoNazionale per quelle di tipo SquadraNazionale. 
+  Un TorneoClub consente di stabilire quanti club nel torneo sono di una specifica nazionalità.
+  Un TorneoNazionale non consente di inserire due club provenienti dalla stessa nazione.
+
+
+- Creare una classe Televisore sapendo che lo stato di un televisore è caratterizzato dal fatto di essere acceso o spento, dal volume (che è compreso tra zero e 10), dal canale (che è compreso tra 0 e 99) e dal fatto che sia in modalità silenzioso o meno. Creare un opportuno costruttore e i metodi set e get.   
+    
+Creare una classe Telecomando attraverso la quale è possibile interagire con un televisore e che offre i seguenti metodi:
+  - accensione(): ad ogni attivazione, setta ed unsetta il valore del pulsante di accensione
+  - impostaCanale(): se la tv è accesa, setta un numero di canale prestabilito passato in input
+  - canaleSuccessivo():se la tv è accesa, passa al canale successivo, se possibile
+  - canalePrecedente():se la tv è accesa, passa al canale precedente, se possibile
+  - aumentaVolume():se la tv è accesa, aumenta di 1 il volume, se possibile
+  - abbassaVolume():se la tv è accesa, diminuisce di 1 il volume, se possibile
+  - silenzioso():se la tv è accesa, setta ed unsetta il valore del pulsante Mute
+  - printTv():se la tv è accesa, visualizza lo stato della tv (il valore di tutte le sue propriet� in quell'istante)
+   
+
+
